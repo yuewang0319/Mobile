@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="427dp"
+        android:layout_weight="0.76">
+    <android.support.v7.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/recycler_view_feed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Recyclerview.PersonRecyclerFragment">
+
+    </android.support.v7.widget.RecyclerView>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <EditText
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_search"
+            android:hint="song name:"
+            android:textStyle="italic"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="89dp"
+            android:layout_height="38dp"
+            android:text="Search"
+            android:id="@+id/button_search"
+            android:layout_gravity="right|top"
+            android:singleLine="false"
+            android:background="#ff33b5e5"/>
+
+    </FrameLayout>
+</LinearLayout>

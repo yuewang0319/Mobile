@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Finalproject</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_fragtivity">Fragtivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
